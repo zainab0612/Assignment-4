@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Review</title>
+</head>
+<body>
+    <table align="center" cellpadding="10" cellspacing="10">
+        <tr>
+            <td bgcolor="#7ff0b2"><b>Step 1: ACCOUNT</b></td>
+            <td bgcolor="#7ff0b2"><b>Step 2: PERSONAL DETAIL</b></td>
+            <td bgcolor="#6583e4"><b>Step 3: YOUR REVIEW</b></td>
+        </tr>
+    </table>
+    <fieldset>
+        <legend><b>Your Review</b></legend><br>
+        <label for="hear">How did you hear about us?</label>
+        <select name="hearabout" id="hear">
+            <option value="Select Your Option" selected disabled>Select Your Option</option>
+            <option value="Google">Google</option>
+            <option value="Friend Circle">Friend Circle</option>
+            <option value="Advertising">Advertising</option>
+            <option value="Relatives">Relatives</option>
+            <option value="Other">Other</option>
+        </select><br><br>
+        <label for="visit">Would you visit again?</label><br><br>
+        <input type="radio" name="visit" id="visit" value="Yes">Yes
+        <input type="radio" name="visit" id="visit" value="No">No
+        <input type="radio" name="visit" id="visit" value="Maybe">Maybe
+        <br><br>
+        <label for="comments">Comment:</label><br>
+        <textarea name="comments" id="comments" cols="25" rows="6" placeholder="Write Your Comment Here"></textarea>
+        <br><br>
+        <input type="file" name="file">
+        <br><br>
+        <input type="checkbox" name="" value="Signme" checked>Sign me up for Email updates
+        <br><br>
+        <a href="./personal.html">« Back</a>
+        <input type="submit" value="Submit">
+        </fieldset>
+        </form>
+</body>
+</html>
